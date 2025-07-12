@@ -1,43 +1,66 @@
-A responsive, interactive web interface for managing employee data. This project is built using pure HTML, CSS, and vanilla JavaScript, designed for in-browser functionality with no backend dependencies.
+<img width="1353" height="637" alt="image" src="https://github.com/user-attachments/assets/d9801e16-88f7-4a88-9a7a-1b61e1c88e7f" /># Employee Directory Web Interface
 
-🚀 Features
-- ✅ Dashboard view with employee cards
-- 🔍 Search by name or email
-- 📊 Filter by department and role
-- ↕️ Sort by first name or department
-- ➕ Add employee form with validation
-- ❌ Delete employee interaction
-- 📱 Responsive design for mobile and desktop
-- 📄 Pagination selector (10, 25, 50, 100 entries)
-- 🧠 Data stored in-memory (can be extended to use localStorage)
+## Overview
+
+This project is a responsive and interactive Employee Directory built using HTML, CSS, JavaScript, and Freemarker templates. It demonstrates modern front-end development principles with modular code structure, dynamic DOM manipulation, and user-friendly UI practices.
+
+## Features
+
+- Dashboard displaying employee details: ID, First Name, Last Name, Email, Department, Role.
+- Add/Edit Form with client-side JavaScript validation.
+- Filtering by First Name, Department, Role.
+- Search bar for name and email lookup.
+- Sorting by First Name and Department.
+- Pagination options (10, 25, 50, 100) or infinite scroll.
+- Responsive layout for desktop, tablet, and mobile.
+- Local JavaScript array simulates employee data via Freemarker rendering.
+- Graceful error handling for invalid form inputs and edit/delete interactions.
+
+## Setup Instructions
+
+1. Clone the repository:
+git clone https://github.com/your-username/employee-directory.git
+
+2. Open `index.html` in a modern browser.
+3. No backend or server is needed; all data operations run client-side.
+
+## Employee Directory Web Interface
+
+employee-directory/
+├── assets/
+│   ├── scripts.js           # Core JavaScript logic for filtering, sorting, pagination, and form handling
+│   └── styles.css           # Modular and responsive styling for all pages
+├── form.html                # Add/Edit employee form with client-side validation
+├── index.html               # Dashboard page displaying employee directory with edit/delete actions
+├── README.md                # Project description, setup instructions, structure, and reflection
+
+
+## Challenges Faced
+
+- Handling seamless UI updates after editing/deleting without backend sync.
+- Coordinating dynamic filters with search and sort across multiple states.
+- Maintaining layout adaptability across screen sizes.
+
+## Improvements If Given More Time
+
+- Persist employee data using browser localStorage.
+- Add bulk actions and confirmation modals.
+- Implement drag-and-drop UI for department reassignment.
+- Add transition animations for a smoother user experience.
+
+## Notes
+
+- Employee data is passed using Freemarker’s `<#assign>` from mock JSON.
+- All interactivity is built using vanilla JavaScript.
+- Minimal dependencies; no external frameworks or APIs involved.
+- Clear code comments aid readability and maintenance.
+
+## Screenshots
+<img width="1353" height="644" alt="image" src="https://github.com/user-attachments/assets/5cb733de-a639-44d4-822c-771001170382" />
+<img width="1348" height="643" alt="image" src="https://github.com/user-attachments/assets/668a8003-23fa-4e14-a95c-ffce4bc59fd0" />
+## Mobile View 
+<img width="360" height="569" alt="image" src="https://github.com/user-attachments/assets/0e4690f2-9672-4bd8-b780-09bcbc6fccc6" />
 
 
 
-🛠️ Setup Instructions
-- Clone the repo:
-git clone https://github.com/YOUR-USERNAME/employee-directory.git
-cd employee-directory
-- Open in VS Code and install Live Server extension:
-- Right-click index.html → “Open with Live Server”
-- To add/edit employees:
-- Navigate to form.html via “Add Employee” button or open directly
 
-🖼️ Screenshots
-(Add screenshots here of the dashboard, form page, filter panel, and mobile view if you'd like)
-
-
-🤔 Reflection
-Challenges Faced:
-- Handling dynamic rendering in vanilla JavaScript without frameworks
-- Creating reusable UI components across dashboard and form
-- Ensuring responsive layout on all screen sizes
-Future Improvements:
-- Integrate localStorage for persistent data
-- Add form pre-fill/edit functionality
-- Implement toast notifications and animated transitions
-- Extend to backend API for real-time updates
-
-📌 Notes
-- Built without any external libraries (fully vanilla)
-- Designed to be easily extended into a full-stack app
-- Freely usable for personal or educational projects
