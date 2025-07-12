@@ -1,4 +1,3 @@
-<img width="1353" height="637" alt="image" src="https://github.com/user-attachments/assets/d9801e16-88f7-4a88-9a7a-1b61e1c88e7f" /># Employee Directory Web Interface
 
 ## Overview
 
@@ -59,6 +58,11 @@ employee-directory/
 <img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/5cb733de-a639-44d4-822c-771001170382" />
 <img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/668a8003-23fa-4e14-a95c-ffce4bc59fd0" />
 <img width="300" height="550" alt="image" src="https://github.com/user-attachments/assets/0e4690f2-9672-4bd8-b780-09bcbc6fccc6" />
+<img width="300" height="500" alt="image" src="https://github.com/user-attachments/assets/f30b92ad-b76c-4648-baa2-cac87c4fe033" />
+<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/437448c4-e8b4-4308-afb1-d7a1fb9b9af4" />
+
+
+
 
 
 
