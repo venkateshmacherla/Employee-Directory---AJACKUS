@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Add/Edit Employee</title>
+    <link rel="stylesheet" href="assets/styles.css" />
+    <link rel="stylesheet" href="assets/form.css">
+</head>
+
+<body>
+    <header class="top-bar">
+        <div class="left-section">
+            <h1>Employee Directory</h1>
+            <input type="text" id="searchBar" placeholder="Search by name/email" />
+        </div>
+        <div class="right-section">
+            <button onclick="toggleFilter()">Filter</button>
+            <button class="add-btn" onclick="addEmployee()">Add Employee</button>
+        </div>
+    </header>
+    <main class="form-page">
+        <section class="form-card">
+            <h2 id="formTitle">Add Employee</h2>
+            <form id="employeeForm">
+                <div class="form-group">
+                    <label for="firstName">First Name</label>
+                    <input name="firstName" id="firstName" required />
+                </div>
+                <div class="form-group">
+                    <label for="lastName">Last Name</label>
+                    <input name="lastName" id="lastName" required />
+                </div>
+                <div class="form-group two-cols">
+                    <div>
+                        <label for="email">Email</label>
+                        <input name="email" id="email" type="email" required />
+                    </div>
+                    <div>
+                        <label for="department">Department</label>
+                        <select name="department" id="department" required>
+                            <option value="">Select Department</option>
+                            <option value="HR">HR</option>
+                            <option value="Engineering">Engineering</option>
+                            <option value="Finance">Finance</option>
+                            <option value="IT">IT</option>
+                            <option value="Marketing">Marketing</option>
+                            <option value="Sales">Sales</option>
+                            <option value="Support">Support</option>
+                            <option value="Operations">Operations</option>
+                            <option value="Product">Product</option>
+                            <option value="Design">Design</option>
+                            <option value="Research">Research</option>
+                            <option value="Customer Service">Customer Service</option>
+                            <option value="Administration">Administration</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="role">Role</label>
+                    <select name="role" id="role" required>
+                        <option value="">Select Role</option>
+                        <option value="Manager">Manager</option>
+                        <option value="Developer">Developer</option>
+                        <option value="Analyst">Analyst</option>
+                        <option value="Designer">Designer</option>
+                        <option value="Tester">Tester</option>
+                        <option value="Administrator">Administrator</option>
+                        <option value="Executive">Executive</option>
+                        <option value="Intern">Intern</option>
+                        <option value="Marketing Specialist">Marketing Specialist</option>
+                        <option value="Project Manager">Project Manager</option>
+                        <option value="Operations Manager">Operations Manager</option>
+                        <option value="Product Manager">Product Manager</option>
+                        <option value="Data Scientist">Data Scientist</option>
+                        <option value="Business Analyst">Business Analyst</option>
+                        <option value="Quality Assurance">Quality Assurance</option>
+                    </select>
+                </div>
+                <div id="formErrors" class="error-text"></div>
+                <div class="form-actions">
+                    <button type="button" onclick="cancelForm()">Cancel</button>
+                    <button type="submit">Save</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer class="app-footer">
+        <h2>© 2025 Employee Directory App. All rights reserved</h2>
+    </footer>
+    <script src="assets/scripts.js"></script>
+</body>
+
+</html>

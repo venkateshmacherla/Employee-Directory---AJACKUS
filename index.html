@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Directory</title>
+    <link rel="stylesheet" href="assets/styles.css" />
+</head>
+
+<body>
+    <header class="top-bar">
+        <div class="left-section">
+            <h1>Employee Directory</h1>
+            <input type="text" id="searchBar" placeholder="Search by name/email" />
+        </div>
+        <div class="right-section">
+            <button onclick="toggleFilter()">Filter</button>
+            <button class="add-btn" onclick="addEmployee()">Add Employee</button>
+        </div>
+    </header>
+
+    <aside id="filterSidebar" class="hidden filter-section">
+        <select id="filterDepartment" class="filter-dropdown">
+            <option value="">All Departments</option>
+        </select>
+        <select id="filterRole" class="filter-dropdown">
+            <option value="">All Roles</option>
+        </select>
+
+        <label for="pageLimit" class="page-limit-label">
+            Show:
+            <select id="pageLimit" onchange="setPageLimit(this.value)">
+                <option value="10">10</option>
+                <option value="25">25</option>
+                <option value="50">50</option>
+                <option value="100">100</option>
+            </select>
+        </label>
+    </aside>
+
+    <main id="employeeContainer"></main>
+
+    <footer class="app-footer">
+        <h2>© 2025 Employee Directory App. All rights reserved</h2>
+    </footer>
+
+    <script src="assets/scripts.js"></script>
+</body>
+
+</html>
