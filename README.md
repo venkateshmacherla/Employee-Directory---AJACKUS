@@ -56,10 +56,9 @@ employee-directory/
 - Clear code comments aid readability and maintenance.
 
 ## Screenshots
-<img width="1353" height="644" alt="image" src="https://github.com/user-attachments/assets/5cb733de-a639-44d4-822c-771001170382" />
-<img width="1348" height="643" alt="image" src="https://github.com/user-attachments/assets/668a8003-23fa-4e14-a95c-ffce4bc59fd0" />
-## Mobile View 
-<img width="360" height="569" alt="image" src="https://github.com/user-attachments/assets/0e4690f2-9672-4bd8-b780-09bcbc6fccc6" />
+<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/5cb733de-a639-44d4-822c-771001170382" />
+<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/668a8003-23fa-4e14-a95c-ffce4bc59fd0" />
+<img width="300" height="550" alt="image" src="https://github.com/user-attachments/assets/0e4690f2-9672-4bd8-b780-09bcbc6fccc6" />
 
 
 
